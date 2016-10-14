@@ -1,21 +1,25 @@
 body {
-    background-color: linen;
+    position: relative;
+    top: 10px;
+    background-color: lightgray;
+    padding: 0.2%
 }
 
 h1 {
-    color: lightseagreen;
+    color: black;
     font-size: 2.5em;
     font-family: Arial, Times, serif;
+    padding: 0.5%
 }
 a {
     padding: 10px
 }
 a:link {
-    color: lightblue
+    color: darkblue
 }
 
 a:visited {
-    color:lightsalmon
+    color:lightblue
 }
 a:hover {
     color:darkblue
@@ -23,8 +27,13 @@ a:hover {
 a:active {
     color:darkcyan
 }
+
 footer {
-    background-color: mediumseagreen
+    text-align: center;
+    background-color: graytext;
+    position:  absolute;
+    bottom: 0px;
+    width: 100%
 }
 ul {
     list-style-type: square
@@ -34,6 +43,46 @@ dt {
     font-style: italic
 }
 nav {
-    background-color: lightsalmon;
-    alignment-adjust: middle
+    border: 1px dashed black;
+    background-color: darkgrey;
+    alignment-adjust: middle;
+    padding: 0.5%;
+    width:70%;
+    margin: auto
+}
+
+/* Ids */
+
+#C_Statement
+{
+    font-style: italic
+}
+
+/* Classes*/
+
+.main_content
+{
+    padding: 20px;
+    border: 1px solid black;
+    outline-color: red;
+}
+
+.a1
+{
+    position: absolute;
+    bottom: 10%;
+    right: 2%
+}
+
+#banner
+{
+    font-size: x-large;
+    color: black;
+    position: fixed;
+    top: 0px
+}
+#banner img
+{
+   position: relative;
+   left: 50%
 }
